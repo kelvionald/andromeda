@@ -1,0 +1,159 @@
+.show-grid > div{
+  background-color: #eee;
+  border-radius: 3px;
+  min-height: 40px;
+}
+
+body{
+  max-width: 900px;
+  margin: auto;
+}
+
+.content{
+  min-height: 450px !important;
+}
+
+.dialogs div{
+  margin-left: 11px;
+  border-bottom: darkgrey 1px solid;
+  cursor: pointer;
+}
+
+.dialogs{
+  border-right: 1px solid darkgrey;
+}
+
+.messages > div > div{
+  background-color: white;
+  border-radius: 4px;
+  padding-left: 7px;
+  line-height: 40px;
+}
+
+.messages{
+  padding: 7px;
+  margin-left: 6px !important;
+  padding: 0;
+  padding-top: 5px;
+}
+
+.dialogs > div > div{
+  line-height: 40px;
+}
+
+h1{
+  display: inline-block;
+}
+
+.createUser{
+  display: none;
+  background-color: #d6d6d6;
+  position: absolute;
+  z-index: 455;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.messagesBox{
+  height: 406px;
+  overflow: auto;
+}
+
+form{
+  margin: 0;
+}
+
+form > input{
+  margin-bottom: 0 !important;
+}
+
+.textInput{
+  width: 100%;
+}
+
+.options{
+  height: 19px;
+  cursor: pointer;
+}
+
+.dlg{
+  padding: 9px 0;
+}
+
+.optionsForm{
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  border-radius: 2px;
+  border: #737373 1px solid;
+  left: 214px;
+  padding: 4px;
+}
+
+.min{
+  font-size: 90%;
+}
+
+.mybtn{
+  width: 100%;
+}
+
+.inline{
+  display: inline-block;
+}
+
+.rigth{
+  float: right;
+  margin-top: 24px;
+}
+
+.optionsForm a {
+  cursor: pointer;
+}
+
+.marker{
+  background-color: #e6e6e6;
+}
+
+a{
+  cursor: pointer;
+}
+
+hr{
+  margin: 4px 0;
+}
+
+input[type="text"]{
+  margin-bottom: 1px;
+}
+
+.container{
+  margin: auto;
+  width: 400px;
+  margin-top: 89px;
+}
+
+.small{
+  font-size: 90%;
+}
+
+.loadAvatar{
+  position: absolute;
+  background-color: #cccccc;
+  border: grey 1px solid;
+  border-radius: 2px;
+  width: 400px;
+  height: 220px;
+  display: none;
+}
+
+.avatar{
+  margin: 2px;
+  width: 100%;
+}
+
+input[type="checkbox"]{
+  margin: 0;
+}

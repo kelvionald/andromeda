@@ -1,0 +1,44 @@
+CREATE TABLE Users (
+    [id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    [nickname] TEXT NOT NULL,
+    [password] TEXT NOT NULL,
+    [public] TEXT NOT NULL,
+    [nodeId] TEXT NOT NULL,
+    [isLocal] BOOLEAN DEFAULT '0' NULL
+);
+
+CREATE TABLE UserData (
+    [id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    [userId] INTEGER NOT NULL,
+    [typeId] INTEGER NOT NULL,
+    [value] TEXT NULL
+);
+
+CREATE TABLE Types (
+    [id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    [name] TEXT NOT NULL
+);
+
+CREATE TABLE Nodes (
+    [id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    [ip] TEXT NOT NULL,
+    [port] INTEGER NOT NULL,
+    [isStatic] BOOLEAN NOT NULL,
+    [lifetime] INTEGER NOT NULL
+);
+
+CREATE TABLE Messages (
+    [id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    [one] INTEGER NOT NULL,
+    [two] INTEGER NOT NULL,
+    [text] TEXT NOT NULL,
+    [delivered] BOOLEAN NOT NULL,
+    [time] INTEGER NOT NULL
+);
+
+CREATE TABLE Relationships (
+    [id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    [one] INTEGER NOT NULL,
+    [two] INTEGER NOT NULL,
+    [status] INTEGER NOT NULL
+);

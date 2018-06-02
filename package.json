@@ -1,0 +1,26 @@
+{
+    "name": "routerapp",
+    "description": "A Vue.js project with routing",
+    "version": "1.0.0",
+    "author": "Eugene <metanit.com>",
+    "scripts": {
+        "server": "server.bat",
+        "client": "gulp dev"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "lite-server": "^2.2.1",
+        "nodemon": "^1.17.3"
+    },
+    "dependencies": {
+        "browser-sync": "^2.23.6",
+        "bs58": "^4.0.1",
+        "crypto": "^1.0.1",
+        "eccrypto": "^1.0.3",
+        "gulp-coffee": "^3.0.2",
+        "nat-upnp": "^1.1.1",
+        "sha256": "^0.2.0",
+        "sqlite3": "^4.0.0",
+        "websocket": "^1.0.25"
+    }
+}
